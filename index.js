@@ -50,8 +50,7 @@ const loadQuiz = async () => {
   quizData = data;
   displayQuiz(data);
 };
-//   fetch("./data/quiz.json")
-//   .then(res => res.json)
+ 
 
 // Displaying quiz on quiz page
 const displayQuiz = (data) => {
