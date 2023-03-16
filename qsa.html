@@ -12,7 +12,7 @@
 <body class="bg-orange-200">
         <h1 class="text-4xl mt-4 text-center font-bold">Question and Answer:</h1>
         <p class="mt-8">f</p>
-  <section class="w-4/6 mx-auto">
+  <section class="w-4/6 mx-auto mb-6">
 
         
         <div class="mt-5 ">
@@ -22,9 +22,10 @@
                 </h2>
         </div>
         <div class="mt-5 ">
-                <h2 class="text-2xl font-bold"> Question-2: What is the difference between localStorage, sessionStorage, session and cookies?</h2>
+                <h2 class="text-2xl font-bold"> Question-2: What is the difference between localStorage, sessionStorage, and cookies?</h2>
                 <h2 class="text-lg mt-3 text-gray-700 font-semibold"> <span class="text-2xl font-semibold">Answer:</span> Local and session storage are JavaScript APIs that you can use to store data on the client-side. They allow a website to store data on the browser and instruct the browser to access it later on.
-                     <br>   Their main difference is that local storage data does not expire, whereas session storage data gets cleared when the user closes its browser window.
+                     <br> localStorage, sessionStorage is main difference is that local storage data does not expire, whereas session storage data gets cleared when the user closes its browser window. <br> And A cookie is an amount of information that persists between a server-side and a client-side. A web browser stores this information at the time of browsing.
+
                 </h2>
         </div>
         <div class="mt-5 ">
@@ -33,10 +34,25 @@
                 </h2>
         </div>
 
-        <h1>function Explain do the work</h1>
-
+        
         <div>
+                <h1 class="text-center mt-20 text-3xl underline font-bold">Explain do the work function:</h1>
 
+        </div>
+        <div class="mt-5 ">
+                <h2 class="text-2xl font-bold">quizTimer function:</h2>
+                <h2 class="text-lg mt-3 text-gray-700 font-semibold"> <span class="text-2xl font-semibold">Answer:</span>  quizTimer is a function that takes a parameter called dismiss.
+                        And if dismiss is true for an if condition, the clearInterval function is called with the timer parameter.
+                        and will return here.
+                        Inside the timer variable, set the time with the setInterval function and set the count to the countHTML variable. And the setinterval will be after 1000 milliseconds
+                </h2>
+        </div>
+        <div class="mt-5 ">
+                <h2 class="text-2xl font-bold"> chooseQuiz function:</h2>
+                <h2 class="text-lg mt-3 text-gray-700 font-semibold"> <span class="text-2xl font-semibold">Answer:</span> The chooseQuiz function takes two parameters
+                        Answer.find is comparing ans id and quizData[index].id in the isExist variable. Then serialize if isExist is true, then run for loop for answers from quiz and do if condition if isExist.id and quiz.id are correct then splice serial quizData and givenAns to answer.
+                        then answer push and finally displayAnswers function called for answer
+                </h2>
         </div>
 
   </section>
