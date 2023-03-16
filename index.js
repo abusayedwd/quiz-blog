@@ -116,11 +116,11 @@ const displayQuiz = (data) => {
       "result",
       JSON.stringify([
         ...storage,
-        {
-          marks: totalMark,
-          examTime: timeTaken.innerText,
-          status: grade.status,
-        },
+      {
+        marks: totalMark,
+        examTime: timeTaken.innerText,
+        status: grade.status,
+      },
       ])
     );
   } else {
